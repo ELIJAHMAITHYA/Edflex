@@ -4,27 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/book"
     android:orientation="vertical"
+    android:background="@drawable/app"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:text="Hello!"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="300dp"
         android:layout_marginBottom="12dp"
+        android:layout_gravity="center"
+        android:text="Hello"
         android:textSize="54dp"
+        android:textColor="@color/orange"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="16dp"
-        android:layout_marginStart="70dp"
+        android:textColor="@color/orange"
         android:text="Welcome To EdFlex!"
         android:textSize="29dp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Start"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" />
 </LinearLayout>

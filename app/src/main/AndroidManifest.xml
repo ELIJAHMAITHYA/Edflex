@@ -13,17 +13,8 @@
         android:theme="@style/Theme.Register"
         tools:targetApi="31">
         <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".Signup"
-            android:exported="false" />
-        <activity
-            android:name=".SignUp"
-            android:exported="false" />
+            android:name=".Home"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -33,6 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
     </application>
 
 </manifest>

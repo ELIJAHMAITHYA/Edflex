@@ -47,7 +47,7 @@ public class login extends AppCompatActivity {
                     // Add appropriate error handling for each field
                     Toast.makeText(login.this, "All fields are required", Toast.LENGTH_LONG).show();
                 } else {
-                        auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
