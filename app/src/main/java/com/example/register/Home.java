@@ -27,14 +27,19 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Lecturerbutton = findViewById(R.id.lecturer_button); // Initialize signUpButton
-
-
+        Lecturerbutton = findViewById(R.id.lecturer_button);
+        studentbutton=findViewById(R.id.student_button);
         Lecturerbutton.setOnClickListener(new View.OnClickListener() {
             @Override
-
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), login.class);
+                startActivity(intent);
+            }
+        });
+        studentbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), LoginStudent.class);
                 startActivity(intent);
             }
         });

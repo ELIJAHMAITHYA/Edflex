@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Register</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="already_an_user_login">Already an User? login</string>
+    <string name="username">Username</string>
+    <string name="username_std">Username</string>
+    <string name="password_std">Password</string>
+    <string name="login">Login</string>
+    <string name="login_std">Login</string>
+    <string name="not_yet_registered_sign_up">Not yet Registered? Sign Up</string>
+    <string name="hello">Hello</string>
+    <string name="welcome_to_edflex">Welcome To EdFlex!</string>
+    <string name="start">Start</string>
 </resources>

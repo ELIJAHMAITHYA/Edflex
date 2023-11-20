@@ -14,8 +14,8 @@
         android:layout_marginTop="300dp"
         android:layout_marginBottom="12dp"
         android:layout_gravity="center"
-        android:text="Hello"
-        android:textSize="54dp"
+        android:text="@string/hello"
+        android:textSize="54sp"
         android:textColor="@color/orange"
         android:textStyle="bold" />
 
@@ -25,8 +25,8 @@
         android:layout_gravity="center"
         android:layout_marginBottom="16dp"
         android:textColor="@color/orange"
-        android:text="Welcome To EdFlex!"
-        android:textSize="29dp"
+        android:text="@string/welcome_to_edflex"
+        android:textSize="29sp"
         android:textStyle="bold" />
 
     <Button
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
-        android:text="Start"
+        android:text="@string/start"
         android:layout_gravity="center"
         tools:ignore="MissingConstraints" />
 </LinearLayout>
