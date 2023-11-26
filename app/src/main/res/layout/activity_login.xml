@@ -76,7 +76,6 @@
             android:padding="8dp"
             android:textColor="@color/black" />
 
-
         <Button
             android:id="@+id/login_button"
             android:layout_width="match_parent"
