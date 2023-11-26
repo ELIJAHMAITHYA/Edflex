@@ -23,11 +23,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="400dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/orange"
         android:text="@string/welcome_to_edflex"
         android:textSize="29sp"
         android:textStyle="bold" />
+
 
     <Button
         android:id="@+id/startButton"
@@ -37,4 +39,5 @@
         android:text="@string/start"
         android:layout_gravity="center"
         tools:ignore="MissingConstraints" />
+
 </LinearLayout>
