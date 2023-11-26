@@ -10,14 +10,18 @@ import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class StudentProfile extends AppCompatActivity {
 
     LinearLayout llSubject;
     ConstraintLayout clSubject;
     ImageView nextnavigation;
+    TextView studentName, studentEmail;
+    EditText subject1assign;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
