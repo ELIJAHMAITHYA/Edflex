@@ -39,7 +39,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/lavender_border"
-                android:drawableStart="@drawable/baseline_person_pin_24"
+                android:drawableStart="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
                 android:hint="@string/username_std"
                 android:padding="8dp"

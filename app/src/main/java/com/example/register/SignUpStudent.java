@@ -29,7 +29,7 @@ public class SignUpStudent extends AppCompatActivity {
 
         signupName = findViewById(R.id.signup_name);
         signupEmail = findViewById(R.id.signup_email);
-        signupUsername = findViewById(R.id.signup_username);
+        signupUsername = findViewById(R.id.signup_username_std);
         signupPassword = findViewById(R.id.signup_password);
         signupButton = findViewById(R.id.signup_button);
         loginRedirectText = findViewById(R.id.loginRedirectText);

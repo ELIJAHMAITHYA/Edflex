@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/app"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:layout_marginBottom="12dp"
-        android:layout_gravity="center"
-        android:text="@string/hello"
-        android:textSize="54sp"
-        android:textColor="@color/orange"
-        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,19 +14,10 @@
         android:layout_gravity="center"
         android:layout_marginTop="400dp"
         android:layout_marginBottom="16dp"
-        android:textColor="@color/orange"
-        android:text="@string/welcome_to_edflex"
-        android:textSize="29sp"
+        android:text="Welcome To EdFlex!"
+        android:textColor="@color/Orange"
+        android:textSize="29dp"
         android:textStyle="bold" />
 
-
-    <Button
-        android:id="@+id/startButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:text="@string/start"
-        android:layout_gravity="center"
-        tools:ignore="MissingConstraints" />
 
 </LinearLayout>
