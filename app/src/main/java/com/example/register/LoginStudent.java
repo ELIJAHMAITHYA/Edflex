@@ -90,7 +90,7 @@ public class LoginStudent extends AppCompatActivity {
 
                     if (userPassword.equals(passwordFromDB)) {
                         loginPassword.setError(null);
-                        Intent intent = new Intent(LoginStudent.this, MainActivity.class);
+                        Intent intent = new Intent(LoginStudent.this, StudentProfile.class);
                         startActivity(intent);
                     } else {
                         loginPassword.setError("Invalid Credentials");
